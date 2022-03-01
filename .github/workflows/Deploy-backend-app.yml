@@ -4,7 +4,6 @@ name: Deploy backend to host
     branches:
       - main
 
-
 jobs:
   docker:
     runs-on: ubuntu-latest
