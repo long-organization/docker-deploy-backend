@@ -57,3 +57,4 @@ jobs:
               docker-compose -H ${{ secrets.HOST_SERVER }} down -remove-orphans
               docker-compose -H ${{ secrets.HOST_SERVER }} pull
               docker-compose -H ${{ secrets.HOST_SERVER }} up -d
+              
